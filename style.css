@@ -110,10 +110,12 @@ border-radius: 50px;
     }
     .banner-text h1{
         font-size: 40px;
+	    padding: 5%;
 
     }
     .banner-text p{
         font-size: 15px;
+	    padding: 2%;
     }
         .banner-btn a{
             display: block;
