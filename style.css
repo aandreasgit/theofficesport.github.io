@@ -135,7 +135,7 @@ border-radius: 50px;
 
 
 .omoss{
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 5%;
@@ -157,7 +157,7 @@ border-radius: 50px;
 }
 .omoss-2{
    
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 5%;
@@ -388,7 +388,7 @@ color: #fff;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 10px;
-    background-color: #27242e;
+    
     transition: 1s;
     
     
@@ -401,11 +401,11 @@ color: #fff;
   .grid-container-3 > div {
     
     
-    
+    border-radius: 20px;
     text-align: center;
     padding: 1px 0;
     margin: 5%;
-    
+    background-color: #27242e;
     font-size: 20px;
   }
   .cell h2{
@@ -440,11 +440,7 @@ color: #fff;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 10px;
-    background-color: #27242e;
-    transition: 1s;
-}
-  .grid-container-map:hover {
-    background-color: #342b48;
+    
   }
   .turneringar-style{
     text-align: center;
@@ -452,11 +448,4 @@ color: #fff;
   .img-center{
     text-align: center;
   }
-  .stacked{
-    display: grid;
-
-  }
-  .stacked > * {
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
+ 
