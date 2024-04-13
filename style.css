@@ -463,4 +463,7 @@ color: #fff;
   .img-center{
     text-align: center;
   }
+  .img-round{
+    border-radius: 20px;
+  }
  
