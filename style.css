@@ -110,12 +110,10 @@ border-radius: 50px;
     }
     .banner-text h1{
         font-size: 40px;
-	    padding: 5%;
 
     }
     .banner-text p{
         font-size: 15px;
-	    padding: 2%;
     }
         .banner-btn a{
             display: block;
@@ -410,6 +408,10 @@ color: #fff;
     background-color: #27242e;
     font-size: 20px;
   }
+  .cell{
+    filter: drop-shadow(5px 5px 5px black);
+	-webkit-filter: drop-shadow(5px 5px 5px black);
+}
   .cell h2{
     color: #fff;
     font-size: 36px;
@@ -417,10 +419,24 @@ color: #fff;
 }
 .cell p{
     color: #fff;
+    text-shadow: 2px 2px 5px #000000;
     font-size: 20px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+}
+.cell-dart p{
+    color: #fff;
+    text-shadow: 2px 2px 5px red;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.cell-dart h2{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
 }
 
   .hitta-hit{
@@ -428,10 +444,7 @@ color: #fff;
     background-color: #27242e;
 
   }
-.cell{
-    filter: drop-shadow(5px 5px 5px black);
-	-webkit-filter: drop-shadow(5px 5px 5px black);
-}
+
 .map{
     background-image: url(images/purple-bg.webp);
 }
